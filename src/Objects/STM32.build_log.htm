@@ -1,0 +1,166 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.29.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: nour aldeen, none, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.29.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.29.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.163.0.0
+Dialog DLL:      TCM.DLL V1.36.5.0
+ 
+<h2>Project:</h2>
+E:\embded\ES\projects\STM32\src\STM32.uvprojx
+Project File Date:  02/01/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling main.c...
+MCAL\TIMERS\TIMERS_interface.h(184): warning:  #1295-D: Deprecated declaration IWDG_voidInit - give arg types
+  void IWDG_voidInit();
+MCAL\TIMERS\TIMERS_interface.h(190): warning:  #1295-D: Deprecated declaration WWDG_voidInit - give arg types
+  void WWDG_voidInit();
+MCAL\TIMERS\TIMERS_interface.h(192): warning:  #1295-D: Deprecated declaration WWDG_voidRefresh - give arg types
+  void WWDG_voidRefresh     ();
+MCAL\TIMERS\TIMERS_interface.h(193): warning:  #1295-D: Deprecated declaration WWDG_voidSoftwareReset - give arg types
+  void WWDG_voidSoftwareReset();
+MCAL\ADC\ADC_private.h(138): warning:  #1-D: last line of file ends without a newline
+   
+MCAL\USART\USART_interface.h(87): warning:  #1295-D: Deprecated declaration USART_voidInit - give arg types
+   void USART_voidInit();
+HAL\LCD\LCD_interface.h(95): warning:  #1295-D: Deprecated declaration LCD_voidDisplayClear - give arg types
+  void LCD_voidDisplayClear();
+HAL\LCD\LCD_interface.h(96): warning:  #1295-D: Deprecated declaration LCD_voidInit - give arg types
+  void LCD_voidInit();
+main.c(31): warning:  #1295-D: Deprecated declaration myFunc - give arg types
+  void myFunc();
+main.c(32): warning:  #1295-D: Deprecated declaration myFunc2 - give arg types
+  void myFunc2();
+main.c(57): warning:  #1296-D: extended constant initialiser used
+                         (u32)&USART_DR(USART_2_BASE_ADD),
+main.c(70): warning:  #1296-D: extended constant initialiser used
+                         (u32)&USART_DR(USART_2_BASE_ADD),
+main.c(151): warning:  #188-D: enumerated type mixed with another type
+  RCC_voidADCSetPresacaler(0);
+main.c(192): warning:  #111-D: statement is unreachable
+  return 0;
+main.c: 14 warnings, 0 errors
+compiling DIO_program.c...
+compiling NVIC_program.c...
+compiling RTC_Program.c...
+compiling PORT_program.c...
+MCAL\PORT\PORT_program.c(67): warning:  #188-D: enumerated type mixed with another type
+  					PORT_ChIdType Copy_Pin   =(Copy_ConfArray[LOC_u8Iterator].Channel)%16;
+MCAL\PORT\PORT_program.c(179): warning:  #188-D: enumerated type mixed with another type
+  					Copy_Pin  =(Copy_ConfArray[LOC_u8Iterator].Channel)%16;
+MCAL\PORT\PORT_program.c: 2 warnings, 0 errors
+compiling EXTI_program.c...
+compiling SYSTICK_program.c...
+compiling LCD_program.c...
+HAL\LCD\LCD_interface.h(95): warning:  #1295-D: Deprecated declaration LCD_voidDisplayClear - give arg types
+  void LCD_voidDisplayClear();
+HAL\LCD\LCD_interface.h(96): warning:  #1295-D: Deprecated declaration LCD_voidInit - give arg types
+  void LCD_voidInit();
+HAL\LCD\LCD_program.c(162): warning:  #1-D: last line of file ends without a newline
+  }
+HAL\LCD\LCD_program.c: 3 warnings, 0 errors
+compiling RCC_Program.c...
+MCAL\RCC\RCC_Program.c(141): warning:  #940-D: missing return statement at end of non-void function "RCC_voidADCSetPresacaler" 
+  }
+MCAL\RCC\RCC_Program.c: 1 warning, 0 errors
+compiling SPI_progrm.c...
+compiling ADC_program.c...
+MCAL\ADC\ADC_private.h(138): warning:  #1-D: last line of file ends without a newline
+   
+MCAL\ADC\ADC_config.h(88): warning:  #1-D: last line of file ends without a newline
+   
+MCAL\ADC\ADC_program.c: 2 warnings, 0 errors
+compiling TIMERS_program.c...
+MCAL\TIMERS\TIMERS_interface.h(184): warning:  #1295-D: Deprecated declaration IWDG_voidInit - give arg types
+  void IWDG_voidInit();
+MCAL\TIMERS\TIMERS_interface.h(190): warning:  #1295-D: Deprecated declaration WWDG_voidInit - give arg types
+  void WWDG_voidInit();
+MCAL\TIMERS\TIMERS_interface.h(192): warning:  #1295-D: Deprecated declaration WWDG_voidRefresh - give arg types
+  void WWDG_voidRefresh     ();
+MCAL\TIMERS\TIMERS_interface.h(193): warning:  #1295-D: Deprecated declaration WWDG_voidSoftwareReset - give arg types
+  void WWDG_voidSoftwareReset();
+MCAL\TIMERS\TIMERS_program.c: 4 warnings, 0 errors
+assembling startup_stm32f10x_ld.s...
+compiling USART_program.c...
+MCAL\USART\USART_interface.h(87): warning:  #1295-D: Deprecated declaration USART_voidInit - give arg types
+   void USART_voidInit();
+MCAL\USART\USART_program.c(250): warning:  #177-D: variable "LOC_u32TimeOutCounter"  was declared but never referenced
+  	u32 LOC_u32TimeOutCounter =0;	
+MCAL\USART\USART_program.c(278): warning:  #177-D: variable "LOC_u32TimeOutCounter"  was declared but never referenced
+  	u32 LOC_u32TimeOutCounter =0;	
+MCAL\USART\USART_program.c(374): warning:  #177-D: variable "LOC_u32TimeOutCounter"  was declared but never referenced
+  	u32 LOC_u32TimeOutCounter =0;	
+MCAL\USART\USART_program.c(530): warning:  #1-D: last line of file ends without a newline
+   *********************************************************************************************************************/
+MCAL\USART\USART_program.c(47): warning:  #177-D: variable "USART_u8STATE"  was declared but never referenced
+  static u8 USART_u8STATE = IDLE;
+MCAL\USART\USART_program.c: 6 warnings, 0 errors
+compiling DMA_program.c...
+MCAL\DMA\DMA_program.c(212): warning:  #177-D: variable "Base_ADD"  was declared but never referenced
+  	u32 Base_ADD=0;
+MCAL\DMA\DMA_program.c(391): warning:  #1-D: last line of file ends without a newline
+   *********************************************************************************************************************/
+MCAL\DMA\DMA_program.c(37): warning:  #177-D: variable "DMA_pu16SendData"  was declared but never referenced
+  static const u16 *DMA_pu16SendData = NULL;
+MCAL\DMA\DMA_program.c(40): warning:  #177-D: variable "DMA_pu16RecieveData"  was declared but never referenced
+  static u16 *DMA_pu16RecieveData = NULL;
+MCAL\DMA\DMA_program.c: 4 warnings, 0 errors
+compiling system_stm32f10x.c...
+RTE\Device\STM32F103C4\system_stm32f10x.c(418): warning:  #177-D: function "SetSysClock"  was declared but never referenced
+  static void SetSysClock(void)
+RTE\Device\STM32F103C4\system_stm32f10x.c: 1 warning, 0 errors
+linking...
+Program Size: Code=6856 RO-data=268 RW-data=320 ZI-data=1888  
+FromELF: creating hex file...
+".\Objects\STM32.axf" - 0 Error(s), 37 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F103C4
+  .\RTE\_Target_1
+  C:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Source file:   Device\Source\ARM\startup_stm32f10x_ld.s
+      Source file:   Device\Source\ARM\STM32F1xx_OPT.s
+      Source file:   Device\Source\system_stm32f10x.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

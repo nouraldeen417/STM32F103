@@ -1,0 +1,125 @@
+Dependencies for Project 'STM32', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\main.c)(0x65C0E122)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (lip\Macros.h)(0x63E2E2C4)
+I (lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\NVIC\NVIC_interface.h)(0x656A62F7)
+I (MCAL\NVIC\NVIC_private.h)(0x6560E779)
+I (MCAL\SYSTICK\SYSTICK_interface.h)(0x656A6288)
+I (MCAL\SYSTICK\SYSTICK_private.h)(0x651352C0)
+I (MCAL\DIO\DIO_interface.h)(0x6570D1C5)
+I (MCAL\DIO\DIO_private.h)(0x656406AA)
+I (MCAL\PORT\PORT_interface.h)(0x6563D4B6)
+I (MCAL\PORT\PORT_private.h)(0x65626D9E)
+I (MCAL\EXTI\EXTI_interface.h)(0x65649E87)
+I (MCAL\EXTI\EXTI_private.h)(0x6564CE15)
+I (MCAL\TIMERS\TIMERS_interface.h)(0x6574CBFB)
+I (MCAL\TIMERS\TIMERS_private.h)(0x6574CBFB)
+I (MCAL\RCC\RCC_interface.h)(0x6578AAF9)
+I (MCAL\RCC\RCC_Private.h)(0x656F538B)
+I (MCAL\RTC\RTC_interface.h)(0x65721769)
+I (MCAL\RTC\RTC_Private.h)(0x656F6C7D)
+I (MCAL\ADC\ADC_interface.h)(0x6581D6C4)
+I (MCAL\ADC\ADC_private.h)(0x6581D6C4)
+I (MCAL\SPI\SPI_interface.h)(0x6597F5E3)
+I (MCAL\SPI\SPI_private.h)(0x6597410F)
+I (MCAL\USART\USART_interface.h)(0x65C0DC42)
+I (MCAL\USART\USART_private.h)(0x65BD3DD7)
+I (MCAL\USART\..\DMA\DMA_interface.h)(0x65C0E0A2)
+I (MCAL\USART\..\DMA\DMA_private.h)(0x65BCE7B2)
+I (HAL\LCD\LCD_interface.h)(0x6571019C)
+I (HAL\LCD\LCD_config.h)(0x6571E2EF)
+I (HAL\LCD\LCD_extrachar.h)(0x64F501E2)
+F (.\MCAL\DIO\DIO_program.c)(0x6570D4F0)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\dio_program.o --omf_browse .\objects\dio_program.crf --depend .\objects\dio_program.d)
+I (MCAL\DIO\..\..\lip\Macros.h)(0x63E2E2C4)
+I (MCAL\DIO\..\..\lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\DIO\DIO_interface.h)(0x6570D1C5)
+I (MCAL\DIO\DIO_private.h)(0x656406AA)
+I (MCAL\DIO\DIO_config.h)(0x651586A8)
+F (.\MCAL\NVIC\NVIC_program.c)(0x656A63CA)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\nvic_program.o --omf_browse .\objects\nvic_program.crf --depend .\objects\nvic_program.d)
+I (MCAL\NVIC\..\..\lip\Macros.h)(0x63E2E2C4)
+I (MCAL\NVIC\..\..\lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\NVIC\NVIC_interface.h)(0x656A62F7)
+I (MCAL\NVIC\NVIC_private.h)(0x6560E779)
+I (MCAL\NVIC\NVIC_config.h)(0x65610043)
+F (.\MCAL\SYSTICK\SYSTICK_program.c)(0x6562517E)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\systick_program.o --omf_browse .\objects\systick_program.crf --depend .\objects\systick_program.d)
+I (MCAL\SYSTICK\..\..\lip\Macros.h)(0x63E2E2C4)
+I (MCAL\SYSTICK\..\..\lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\SYSTICK\SYSTICK_interface.h)(0x656A6288)
+I (MCAL\SYSTICK\SYSTICK_private.h)(0x651352C0)
+I (MCAL\SYSTICK\SYSTICK_config.h)(0x6514407D)
+F (.\MCAL\PORT\PORT_program.c)(0x6563D467)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\port_program.o --omf_browse .\objects\port_program.crf --depend .\objects\port_program.d)
+I (MCAL\PORT\..\..\lip\Macros.h)(0x63E2E2C4)
+I (MCAL\PORT\..\..\lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\PORT\PORT_interface.h)(0x6563D4B6)
+I (MCAL\PORT\PORT_private.h)(0x65626D9E)
+I (MCAL\PORT\PORT_conf.h)(0x6563CE0D)
+F (.\MCAL\EXTI\EXTI_program.c)(0x65721769)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\exti_program.o --omf_browse .\objects\exti_program.crf --depend .\objects\exti_program.d)
+I (MCAL\EXTI\..\..\lip\Macros.h)(0x63E2E2C4)
+I (MCAL\EXTI\..\..\lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\EXTI\EXTI_interface.h)(0x65649E87)
+I (MCAL\EXTI\EXTI_private.h)(0x6564CE15)
+F (.\MCAL\TIMERS\TIMERS_program.c)(0x657751A5)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\timers_program.o --omf_browse .\objects\timers_program.crf --depend .\objects\timers_program.d)
+I (MCAL\TIMERS\..\..\lip\Macros.h)(0x63E2E2C4)
+I (MCAL\TIMERS\..\..\lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\TIMERS\TIMERS_interface.h)(0x6574CBFB)
+I (MCAL\TIMERS\TIMERS_private.h)(0x6574CBFB)
+I (MCAL\TIMERS\TIMERS_Conf.h)(0x6574CCCE)
+F (.\MCAL\RCC\RCC_Program.c)(0x6578ACFD)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\rcc_program.o --omf_browse .\objects\rcc_program.crf --depend .\objects\rcc_program.d)
+I (MCAL\RCC\..\..\lip\Macros.h)(0x63E2E2C4)
+I (MCAL\RCC\..\..\lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\RCC\RCC_interface.h)(0x6578AAF9)
+I (MCAL\RCC\RCC_Private.h)(0x656F538B)
+I (MCAL\RCC\RCC_Conf.h)(0x656F4DEC)
+F (.\MCAL\RTC\RTC_Program.c)(0x657215FA)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\rtc_program.o --omf_browse .\objects\rtc_program.crf --depend .\objects\rtc_program.d)
+I (MCAL\RTC\..\..\lip\Macros.h)(0x63E2E2C4)
+I (MCAL\RTC\..\..\lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\RTC\RTC_interface.h)(0x65721769)
+I (MCAL\RTC\RTC_Private.h)(0x656F6C7D)
+I (MCAL\RTC\RTC_Conf.h)(0x65710408)
+F (.\HAL\LCD\LCD_program.c)(0x6578DE34)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\lcd_program.o --omf_browse .\objects\lcd_program.crf --depend .\objects\lcd_program.d)
+I (HAL\LCD\LCD_interface.h)(0x6571019C)
+I (HAL\LCD\../../lip/STD_TYPES.h)(0x65198A1B)
+I (HAL\LCD\../../MCAL/DIO/DIO_interface.h)(0x6570D1C5)
+I (HAL\LCD\../../MCAL/DIO/..\..\lip\Macros.h)(0x63E2E2C4)
+I (HAL\LCD\../../MCAL/DIO/DIO_private.h)(0x656406AA)
+I (HAL\LCD\../../MCAL/SYSTICK/SYSTICK_interface.h)(0x656A6288)
+I (HAL\LCD\../../MCAL/SYSTICK/SYSTICK_private.h)(0x651352C0)
+I (HAL\LCD\LCD_config.h)(0x6571E2EF)
+I (HAL\LCD\LCD_extrachar.h)(0x64F501E2)
+F (.\MCAL\ADC\ADC_program.c)(0x6581D6C4)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\adc_program.o --omf_browse .\objects\adc_program.crf --depend .\objects\adc_program.d)
+I (MCAL\ADC\ADC_interface.h)(0x6581D6C4)
+I (MCAL\ADC\../../lip/STD_TYPES.h)(0x65198A1B)
+I (MCAL\ADC\ADC_private.h)(0x6581D6C4)
+I (MCAL\ADC\../../lip/Macros.h)(0x63E2E2C4)
+I (MCAL\ADC\ADC_config.h)(0x6581D77D)
+F (.\MCAL\SPI\SPI_progrm.c)(0x65B42E45)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\spi_progrm.o --omf_browse .\objects\spi_progrm.crf --depend .\objects\spi_progrm.d)
+I (MCAL\SPI\..\..\lip\Macros.h)(0x63E2E2C4)
+I (MCAL\SPI\..\..\lip\STD_TYPES.h)(0x65198A1B)
+I (MCAL\SPI\SPI_interface.h)(0x6597F5E3)
+I (MCAL\SPI\SPI_private.h)(0x6597410F)
+F (.\MCAL\USART\USART_program.c)(0x65C0DC42)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\usart_program.o --omf_browse .\objects\usart_program.crf --depend .\objects\usart_program.d)
+I (MCAL\USART\USART_interface.h)(0x65C0DC42)
+I (MCAL\USART\../../lip/Macros.h)(0x63E2E2C4)
+I (MCAL\USART\../../lip/STD_TYPES.h)(0x65198A1B)
+I (MCAL\USART\USART_private.h)(0x65BD3DD7)
+I (MCAL\USART\..\DMA\DMA_interface.h)(0x65C0E0A2)
+I (MCAL\USART\..\DMA\DMA_private.h)(0x65BCE7B2)
+I (MCAL\USART\USART_config.h)(0x65B289EB)
+F (.\MCAL\DMA\DMA_program.c)(0x65C0E0A2)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\dma_program.o --omf_browse .\objects\dma_program.crf --depend .\objects\dma_program.d)
+I (MCAL\DMA\DMA_interface.h)(0x65C0E0A2)
+I (MCAL\DMA\../../lip/Macros.h)(0x63E2E2C4)
+I (MCAL\DMA\../../lip/STD_TYPES.h)(0x65198A1B)
+I (MCAL\DMA\DMA_private.h)(0x65BCE7B2)
+I (MCAL\DMA\DMA_config.h)(0x65BC0336)
+F (RTE\Device\STM32F103C4\RTE_Device.h)(0x5FC0A44A)()
+F (RTE\Device\STM32F103C4\startup_stm32f10x_ld.s)(0x6567363B)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include--pd "__UVISION_VERSION SETA 529" --pd "_RTE_ SETA 1" --pd "STM32F10X_LD SETA 1"--list .\listings\startup_stm32f10x_ld.lst --xref -o .\objects\startup_stm32f10x_ld.o --depend .\objects\startup_stm32f10x_ld.d)
+F (RTE\Device\STM32F103C4\system_stm32f10x.c)(0x65675CA5)(--c99 --gnu -c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I .\HAL -I .\lip -I .\MCAL\DIO -I .\MCAL\SYSTICK -I .\MCAL\NVIC-I.\RTE\Device\STM32F103C4-I.\RTE\_Target_1-IC:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include-D__UVISION_VERSION="529" -D_RTE_ -DSTM32F10X_LD-o .\objects\system_stm32f10x.o --omf_browse .\objects\system_stm32f10x.crf --depend .\objects\system_stm32f10x.d)
+I (C:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\stm32f10x.h)(0x61ADCDBE)
+I (.\RTE\_Target_1\RTE_Components.h)(0x6561E441)
+I (C:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h)(0x626F831E)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B1868)
+I (C:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\nour\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F831E)
+I (C:\Users\nour\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.1\Device\Include\system_stm32f10x.h)(0x61ADCDBE)

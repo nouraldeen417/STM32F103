@@ -1,0 +1,10 @@
+.\objects\lcd_program.o: HAL\LCD\LCD_program.c
+.\objects\lcd_program.o: HAL\LCD\LCD_interface.h
+.\objects\lcd_program.o: HAL\LCD\../../lip/STD_TYPES.h
+.\objects\lcd_program.o: HAL\LCD\../../MCAL/DIO/DIO_interface.h
+.\objects\lcd_program.o: HAL\LCD\../../MCAL/DIO/..\..\lip\Macros.h
+.\objects\lcd_program.o: HAL\LCD\../../MCAL/DIO/DIO_private.h
+.\objects\lcd_program.o: HAL\LCD\../../MCAL/SYSTICK/SYSTICK_interface.h
+.\objects\lcd_program.o: HAL\LCD\../../MCAL/SYSTICK/SYSTICK_private.h
+.\objects\lcd_program.o: HAL\LCD\LCD_config.h
+.\objects\lcd_program.o: HAL\LCD\LCD_extrachar.h
